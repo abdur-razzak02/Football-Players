@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football</title>
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/banner.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="bg-blue-800 dark:bg-blue-950">
+      <div class="max-w-screen-lg m-auto px-5 lg:px-10">
+        <div class="nav-bar flex justify-between items-center py-10 lg:pb-20">
+          <div class="nav-bar hidden lg:block sm:block">
+            <nav>
+              <ul class="sm:flex sm:gap-5 lg:flex lg:gap-7">
+                <li><a class="text-white text-xl sm:text-base" href="">Home</a></li>
+                <li><a class="text-white text-xl sm:text-base" href="#players">Players</a></li>
+                <li><a class="text-white text-xl sm:text-base" href="#highlight">Copa America 2024</a></li>
+                <li><a class="text-white text-xl sm:text-base" href="">Upcoming Matches</a></li>
+                <li><a class="text-white text-xl sm:text-base" href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="bar-icon lg:hidden sm:hidden">
+            <i class="fa-solid fa-bars text-white text-2xl"></i>
+          </div>
+
+          <div>
+            <a href="" class="inline"><button class="flex items-center gap-2 bg-pink-500 py-2 px-5">
+                <img src="images/Social Icons/login.png" class="w-6" alt="" />
+                <span class="text-white font-semibold text-base">Login</span>
+              </button></a>
+          </div>
+        </div>
+
+        <div class="banner pb-16 lg:flex sm:flex">
+          <div class="lg:w-[50%] sm:w-[50%]">
+            <h1 class="text-white font-bold text-5xl pb-5 leading-[60px]">
+              Conmebol <br />
+              Copa America <br />
+              2021
+            </h1>
+            <button class="flex items-center gap-2 bg-pink-500 py-2 px-5 mb-16">
+              <span class="text-white font-semibold text-base">Watch Live</span>
+              <i
+                class="fa-solid fa-arrow-right font-semibold text-xl text-white"
+              ></i>
+            </button>
+          </div>
+          <div class="lg:w-[50%] sm:w-[50%]">
+            <img src="images/banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-screen-lg m-auto px-5 lg:px-10">
+      <section id="players">
+        <div class="mt-10 mb-12 lg:grid lg:grid-cols-3 lg:gap-5 sm:grid sm:grid-cols-2 sm:gap-5">
+
+          <div class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 dark:bg-black lg:h-[100%] sm:h-[100%]" >
+            <figure>
+              <img src="images/players/player-1.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Neymar Jr</h2>
+              <p class="text-xl">
+                Neymar da Silva Santos Júnior also known as Neymar Júnior, is a
+                Brazilian professional footballer.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-2.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Lionel Messi</h2>
+              <p class="text-xl">
+                Leo Messi is an Argentine professional footballer who plays as a
+                forward and captains.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto lg:mb-0 mb-7 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-3.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Cristiano Ronaldo</h2>
+              <p class="text-xl">
+                His United return was cut short following a controversial
+                interview with Piers Morgan in which he criticised the club.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-4.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Paulo Dybala</h2>
+              <p class="text-xl">
+                Dybala celebrates Argentina's success despite Copa America
+                exclusion. He was among the top players of Argentina's squad for
+                the Copa America.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-5.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Mesut Ozil</h2>
+              <p class="text-xl">
+                Mesut Özil is a German former professional footballer who played
+                as an attacking midfielder. Known for his technical skills,
+                creativity, passing skillsr.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-6.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Mauro Icardi</h2>
+              <p class="text-xl">
+                Mauro Emanuel Icardi Rivero is an Argentine professional
+                footballer who plays as a striker for Süper Lig club
+                Galatasaray.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-7.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Di Maria</h2>
+              <p class="text-xl">
+                Ángel Fabián Di María is an Argentine professional footballer
+                who plays as a right winger or attacking midfielder for Primeira
+                Liga club Benfica.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-8.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Kylian Mbappé</h2>
+              <p class="text-xl">
+                Kylian Mbappé Lottin is a French professional footballer who
+                plays as a forward for La Liga club Real Madrid and captains the
+                France.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-9.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Mohamed Salah</h2>
+              <p class="text-xl">
+                Salah is regarded as a symbol of national pride in Egypt for his
+                achievements and was named in Time magazine's list of the 100
+                most influential people in 2019.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-10.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Harry Kane</h2>
+              <p class="text-xl">
+                A prolific goalscorer with strong link play, Kane is regarded as
+                one of the best players in the world and one of the best
+                strikers of his generation.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-11.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Philippe Coutinho</h2>
+              <p class="text-xl">
+                Philippe Coutinho Correia is a Brazilian professional footballer
+                who plays as an attacking midfielder or winger for Campeonato
+                Brasileiro Série A.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="card bg-base-100 shadow-xl m-auto mb-7 lg:mb-0 lg:h-[100%] sm:h-[100%] dark:bg-black"
+          >
+            <figure>
+              <img src="images/players/player-12.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-bold">Kevin De Bruyne</h2>
+              <p class="text-xl">
+                Kevin De Bruyne (born 28 June 1991) is a Belgian professional
+                footballer who plays as a midfielder for Premier League club
+                Manchester City.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="highlight">
+        <div class="mb-20 px-5 lg:flex lg:gap-5 lg:mt-20">
+          <div class="lg:w-[50%]">
+            <h1 class="text-4xl font-bold mb-4">
+              All Highlights <br />
+              Copa America 2024
+            </h1>
+            <p class="text-xl mb-8">
+              Still, Argentina won its second straight Copa America
+              championship, beating Colombia 1-0 Sunday night on Lautaro
+              Martínez's 112th-minute goal. “Leo is the greatest player in
+              history,” Argentina coach Lionel Scaloni said through an
+              interpreter.
+            </p>
+            <button class="flex items-center gap-2 bg-pink-500 py-2 px-5 mb-8">
+              <span class="text-white font-semibold text-base">Watch Now</span>
+              <i
+                class="fa-solid fa-arrow-right font-semibold text-xl text-white"
+              ></i>
+            </button>
+          </div>
+          <div class="lg:w-[50%]">
+            <img src="images/match.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div>
+        <img src="images/Logo.png" class="w-[80%] m-auto lg:w-[450px]" alt="" />
+      </div>
+      <div class="mb-10 flex justify-center gap-5 mt-10">
+        <img src="images/Social Icons/Instagram.png" alt="" class="w-14 h-14" />
+        <img src="images/Social Icons/Dribbble.png" alt="" class="w-14 h-14" />
+        <img src="images/Social Icons/Twitter.png" alt="" class="w-14 h-14" />
+        <img src="images/Social Icons/Youtube.png" alt="" class="w-14 h-14" />
+      </div>
+      <h2 class="text-center text-2xl font-semibold mb-16">
+        Copyright © 2022 Football
+      </h2>
+    </footer>
+  </body>
+</html>
